@@ -1,4 +1,4 @@
-package hello
+package main
 
 import (
 	"fmt"
@@ -7,4 +7,7 @@ import (
 
 func SayHello(msg string) {
 	fmt.Println("SayHello =>", msg)
+}
+
+func main() {
 }
